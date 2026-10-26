@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="1000" height="650" style="background:#070b14; font-family:'SF Mono', 'Roboto Mono', monospace;">
+  <rect x="0" y="0" width="1000" height="50" fill="#090e1a" stroke="#1e293b" stroke-width="1"/>
+  <text x="24" y="32" fill="#00f0ff" font-size="16" font-weight="bold" letter-spacing="1">ARINC768FORGE PRO</text>
+  <rect x="210" y="16" width="95" height="20" rx="3" fill="#00f0ff" fill-opacity="0.15" stroke="#00f0ff"/>
+  <text x="257" y="30" fill="#00f0ff" font-size="10" font-weight="bold" text-anchor="middle">v1.0.0 STABLE</text>
+  <rect x="315" y="16" width="190" height="20" rx="3" fill="#10b981" fill-opacity="0.15" stroke="#10b981"/>
+  <text x="410" y="30" fill="#10b981" font-size="10" font-weight="bold" text-anchor="middle">ARINC 768 ACMS/AIDS CERTIFIED</text>
+  <text x="976" y="32" fill="#94a3b8" font-size="11" text-anchor="end">RECORD #401 | UAE768</text>
+
+  <!-- Left Main Area: Engine Gauges & Controls -->
+  <rect x="20" y="65" width="630" height="340" rx="8" fill="#0d1424" stroke="#1e293b"/>
+  <text x="36" y="92" fill="#00f0ff" font-size="13" font-weight="bold">⚙️ TURBOFAN ENGINE CONDITION MONITORING (GE90-115B DUAL INSTALLATION)</text>
+
+  <!-- Engine 1 Box -->
+  <rect x="36" y="105" width="290" height="150" rx="6" fill="#050811" stroke="#1e293b"/>
+  <text x="46" y="125" fill="#00f0ff" font-size="10" font-weight="bold">ENGINE 1 (LEFT) — GE90-115B</text>
+  <text x="46" y="145" fill="#94a3b8" font-size="9">N1 SPOOL RPM : <tspan fill="#ffffff" font-weight="bold">88.4 %</tspan></text>
+  <text x="46" y="165" fill="#94a3b8" font-size="9">N2 SPOOL RPM : <tspan fill="#ffffff" font-weight="bold">92.1 %</tspan></text>
+  <text x="46" y="185" fill="#94a3b8" font-size="9">EXHAUST GAS TEMP (EGT) : <tspan fill="#00f0ff" font-weight="bold">785.0 °C</tspan></text>
+  <text x="46" y="205" fill="#94a3b8" font-size="9">FUEL FLOW : <tspan fill="#ffffff">3,420 kg/hr</tspan></text>
+  <text x="46" y="225" fill="#94a3b8" font-size="9">OIL PRESSURE / TEMP : <tspan fill="#ffffff">85 psi / 112 °C</tspan></text>
+  <text x="46" y="245" fill="#94a3b8" font-size="9">ROTOR VIBRATION : <tspan fill="#10b981">0.65 / 0.82 ips</tspan></text>
+
+  <!-- Engine 2 Box -->
+  <rect x="336" y="105" width="300" height="150" rx="6" fill="#050811" stroke="#1e293b"/>
+  <text x="346" y="125" fill="#00f0ff" font-size="10" font-weight="bold">ENGINE 2 (RIGHT) — GE90-115B</text>
+  <text x="346" y="145" fill="#94a3b8" font-size="9">N1 SPOOL RPM : <tspan fill="#ffffff" font-weight="bold">88.5 %</tspan></text>
+  <text x="346" y="165" fill="#94a3b8" font-size="9">N2 SPOOL RPM : <tspan fill="#ffffff" font-weight="bold">92.2 %</tspan></text>
+  <text x="346" y="185" fill="#94a3b8" font-size="9">EXHAUST GAS TEMP (EGT) : <tspan fill="#00f0ff" font-weight="bold">788.0 °C</tspan></text>
+  <text x="346" y="205" fill="#94a3b8" font-size="9">FUEL FLOW : <tspan fill="#ffffff">3,435 kg/hr</tspan></text>
+  <text x="346" y="225" fill="#94a3b8" font-size="9">OIL PRESSURE / TEMP : <tspan fill="#ffffff">86 psi / 114 °C</tspan></text>
+  <text x="346" y="245" fill="#94a3b8" font-size="9">ROTOR VIBRATION : <tspan fill="#10b981">0.70 / 0.85 ips</tspan></text>
+
+  <!-- Flight Dynamics & G-Meter Row -->
+  <rect x="36" y="265" width="140" height="65" rx="5" fill="#090e1a" stroke="#1e293b"/>
+  <text x="46" y="282" fill="#64748b" font-size="8">VERTICAL ACCEL (NZ)</text>
+  <text x="46" y="302" fill="#00f0ff" font-size="12" font-weight="bold">1.00 G</text>
+  <text x="46" y="318" fill="#10b981" font-size="8">LIMIT: 1.80 G</text>
+
+  <rect x="188" y="265" width="140" height="65" rx="5" fill="#090e1a" stroke="#1e293b"/>
+  <text x="198" y="282" fill="#64748b" font-size="8">PRESSURE ALTITUDE</text>
+  <text x="198" y="302" fill="#00f0ff" font-size="12" font-weight="bold">FL370</text>
+  <text x="198" y="318" fill="#10b981" font-size="8">37,000 FT CRUISE</text>
+
+  <rect x="340" y="265" width="140" height="65" rx="5" fill="#090e1a" stroke="#1e293b"/>
+  <text x="350" y="282" fill="#64748b" font-size="8">AIRSPEED &amp; MACH</text>
+  <text x="350" y="302" fill="#00f0ff" font-size="12" font-weight="bold">M 0.84 / 285KT</text>
+  <text x="350" y="318" fill="#10b981" font-size="8">SAT: -52 °C</text>
+
+  <rect x="492" y="265" width="144" height="65" rx="5" fill="#090e1a" stroke="#1e293b"/>
+  <text x="502" y="282" fill="#64748b" font-size="8">EXCEEDANCE STATUS</text>
+  <text x="502" y="302" fill="#10b981" font-size="12" font-weight="bold">NORMAL</text>
+  <text x="502" y="318" fill="#64748b" font-size="8">ALL ENGINES OK</text>
+
+  <!-- Bottom Left: Controls & ACARS Downlink Stream -->
+  <rect x="20" y="420" width="630" height="210" rx="8" fill="#0d1424" stroke="#1e293b"/>
+  <text x="36" y="445" fill="#00f0ff" font-size="12" font-weight="bold">⚡ ACMS TRIGGER INJECTION &amp; DOWNLINK REPORT STREAM</text>
+
+  <rect x="36" y="460" width="112" height="34" rx="4" fill="#1e293b" stroke="#334155"/>
+  <text x="92" y="481" fill="#e2e8f0" font-size="9" text-anchor="middle">📊 Report 15 (ETM)</text>
+
+  <rect x="158" y="460" width="112" height="34" rx="4" fill="#1e293b" stroke="#334155"/>
+  <text x="214" y="481" fill="#e2e8f0" font-size="9" text-anchor="middle">🛫 Report 22 (TO)</text>
+
+  <rect x="280" y="460" width="112" height="34" rx="4" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444"/>
+  <text x="336" y="481" fill="#ef4444" font-size="9" text-anchor="middle">⚠️ Hard Landing</text>
+
+  <rect x="402" y="460" width="112" height="34" rx="4" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444"/>
+  <text x="458" y="481" fill="#ef4444" font-size="9" text-anchor="middle">🔥 High EGT</text>
+
+  <rect x="524" y="460" width="110" height="34" rx="4" fill="#10b981" fill-opacity="0.15" stroke="#10b981"/>
+  <text x="579" y="481" fill="#10b981" font-size="9" text-anchor="middle">🔄 Reset Normal</text>
+
+  <!-- Report Feed -->
+  <rect x="36" y="505" width="598" height="110" rx="4" fill="#050811" stroke="#1e293b"/>
+  <text x="46" y="525" fill="#00f0ff" font-size="9" font-weight="bold">ARINC 768 REPORT 15: ENGINE CRUISE PERFORMANCE REPORT (ETM)</text>
+  <text x="46" y="538" fill="#94a3b8" font-size="8">TAIL: A6-EGA | FLIGHT: UAE768 | ALT: FL370 | M0.84 | EGT MARGIN: ENG1 +45.2°C, ENG2 +42.8°C</text>
+  <line x1="46" y1="548" x2="620" y2="548" stroke="#1e293b"/>
+  <text x="46" y="565" fill="#f59e0b" font-size="9" font-weight="bold">ARINC 768 REPORT 22: TAKEOFF FULL-THRUST PROFILE SUMMARY</text>
+  <text x="46" y="578" fill="#94a3b8" font-size="8">PEAK N1: 98.6% | TAKEOFF EGT: 912°C | RUNWAY TEMP: 28°C | STATUS: TAKEOFF_BURST_RECORDED</text>
+  <line x1="46" y1="588" x2="620" y2="588" stroke="#1e293b"/>
+  <text x="46" y="605" fill="#10b981" font-size="9" font-weight="bold">QAR SOLID-STATE STREAM: 128 WPS OPTICAL BUFFER COMMITTED</text>
+
+  <!-- Right Sidebar: ARINC 429 & Auditor -->
+  <rect x="670" y="65" width="310" height="240" rx="8" fill="#0d1424" stroke="#1e293b"/>
+  <text x="686" y="92" fill="#00f0ff" font-size="12" font-weight="bold">🎛️ ARINC 429 DISCRETE BUS MONITOR</text>
+
+  <rect x="686" y="105" width="278" height="85" rx="5" fill="#090e1a" stroke="#1e293b"/>
+  <text x="698" y="125" fill="#64748b" font-size="8">LABEL 126 (DMU STATUS &amp; TRIGGER)</text>
+  <text x="698" y="145" fill="#00f0ff" font-size="13" font-weight="bold">0x07E12056</text>
+  <text x="698" y="162" fill="#94a3b8" font-size="8">TRIG: 0 (NONE) | PHASE: 4 (CRUISE) | SSM: 03</text>
+  <rect x="880" y="130" width="75" height="18" rx="3" fill="#10b981" fill-opacity="0.15" stroke="#10b981"/>
+  <text x="917" y="143" fill="#10b981" font-size="8" font-weight="bold" text-anchor="middle">ODD PARITY: OK</text>
+
+  <rect x="686" y="200" width="278" height="85" rx="5" fill="#090e1a" stroke="#1e293b"/>
+  <text x="698" y="220" fill="#64748b" font-size="8">LABEL 127 (REPORT REQ &amp; SEQUENCE)</text>
+  <text x="698" y="240" fill="#00f0ff" font-size="13" font-weight="bold">0x03C03C57</text>
+  <text x="698" y="257" fill="#94a3b8" font-size="8">REPORT 15 (ETM) | SEQUENCE: 1</text>
+  <rect x="880" y="225" width="75" height="18" rx="3" fill="#10b981" fill-opacity="0.15" stroke="#10b981"/>
+  <text x="917" y="238" fill="#10b981" font-size="8" font-weight="bold" text-anchor="middle">ODD PARITY: OK</text>
+
+  <!-- Normative Auditor Panel -->
+  <rect x="670" y="320" width="310" height="310" rx="8" fill="#0d1424" stroke="#1e293b"/>
+  <text x="686" y="345" fill="#00f0ff" font-size="12" font-weight="bold">🛡️ 10-POINT NORMATIVE AUDITOR</text>
+  <rect x="885" y="332" width="80" height="18" rx="3" fill="#10b981" fill-opacity="0.15" stroke="#10b981"/>
+  <text x="925" y="345" fill="#10b981" font-size="8" font-weight="bold" text-anchor="middle">100% PASS (10/10)</text>
+
+  <g font-size="8">
+    <rect x="686" y="360" width="278" height="22" rx="3" fill="#090e1a" stroke="#1e293b"/>
+    <text x="696" y="375" fill="#e2e8f0">CHK-01: 8 Flight Phase State Machine</text>
+    <text x="955" y="375" fill="#10b981" font-weight="bold" text-anchor="end">PASS</text>
+
+    <rect x="686" y="386" width="278" height="22" rx="3" fill="#090e1a" stroke="#1e293b"/>
+    <text x="696" y="401" fill="#e2e8f0">CHK-02: Turbofan Dual-Spool Ingestion</text>
+    <text x="955" y="401" fill="#10b981" font-weight="bold" text-anchor="end">PASS</text>
+
+    <rect x="686" y="412" width="278" height="22" rx="3" fill="#090e1a" stroke="#1e293b"/>
+    <text x="696" y="427" fill="#e2e8f0">CHK-03: Hard Landing Boundary (&gt; 1.80G)</text>
+    <text x="955" y="427" fill="#10b981" font-weight="bold" text-anchor="end">PASS</text>
+
+    <rect x="686" y="438" width="278" height="22" rx="3" fill="#090e1a" stroke="#1e293b"/>
+    <text x="696" y="453" fill="#e2e8f0">CHK-04: Takeoff Peak EGT Limit (950°C)</text>
+    <text x="955" y="453" fill="#10b981" font-weight="bold" text-anchor="end">PASS</text>
+
+    <rect x="686" y="464" width="278" height="22" rx="3" fill="#090e1a" stroke="#1e293b"/>
+    <text x="696" y="479" fill="#e2e8f0">CHK-05: Rotor Vibration Limit (2.5 ips)</text>
+    <text x="955" y="479" fill="#10b981" font-weight="bold" text-anchor="end">PASS</text>
+
+    <rect x="686" y="490" width="278" height="22" rx="3" fill="#090e1a" stroke="#1e293b"/>
+    <text x="696" y="505" fill="#e2e8f0">CHK-06: Report 15 (Engine Cruise ETM)</text>
+    <text x="955" y="505" fill="#10b981" font-weight="bold" text-anchor="end">PASS</text>
+
+    <rect x="686" y="516" width="278" height="22" rx="3" fill="#090e1a" stroke="#1e293b"/>
+    <text x="696" y="531" fill="#e2e8f0">CHK-07: Report 22 (Takeoff Profile)</text>
+    <text x="955" y="531" fill="#10b981" font-weight="bold" text-anchor="end">PASS</text>
+
+    <rect x="686" y="542" width="278" height="22" rx="3" fill="#090e1a" stroke="#1e293b"/>
+    <text x="696" y="557" fill="#e2e8f0">CHK-08: Report 44 (Exceedance Downlink)</text>
+    <text x="955" y="557" fill="#10b981" font-weight="bold" text-anchor="end">PASS</text>
+
+    <rect x="686" y="568" width="278" height="22" rx="3" fill="#090e1a" stroke="#1e293b"/>
+    <text x="696" y="583" fill="#e2e8f0">CHK-09: ARINC 429 Discrete Labels 126/127</text>
+    <text x="955" y="583" fill="#10b981" font-weight="bold" text-anchor="end">PASS</text>
+
+    <rect x="686" y="594" width="278" height="22" rx="3" fill="#090e1a" stroke="#1e293b"/>
+    <text x="696" y="609" fill="#e2e8f0">CHK-10: Bit 32 Odd Parity Hardware Verify</text>
+    <text x="955" y="609" fill="#10b981" font-weight="bold" text-anchor="end">PASS</text>
+  </g>
+</svg>

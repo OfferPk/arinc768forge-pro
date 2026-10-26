@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" style="background:#070b14; font-family:'SF Mono', 'Roboto Mono', monospace;">
+  <defs>
+    <linearGradient id="gradCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="gradGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="gradAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Title Banner -->
+  <rect x="30" y="25" width="940" height="65" rx="8" fill="#0d1424" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="50" y="55" fill="#00f0ff" font-size="18" font-weight="bold" letter-spacing="1">ARINC 768 AIRBORNE INTEGRATED DATA SYSTEM (AIDS/ACMS) ARCHITECTURE</text>
+  <text x="50" y="74" fill="#64748b" font-size="11">Data Management Unit (DMU) • Engine Condition Monitoring (ECM) • FOQA Flight Safety Ground Link</text>
+  <rect x="830" y="42" width="120" height="28" rx="4" fill="#00f0ff" fill-opacity="0.15" stroke="#00f0ff" stroke-width="1"/>
+  <text x="890" y="60" fill="#00f0ff" font-size="10" font-weight="bold" text-anchor="middle">RECORD #401</text>
+
+  <!-- Left: Sensor & FADEC Acquisition Segment -->
+  <rect x="30" y="110" width="280" height="440" rx="8" fill="url(#gradCyan)" stroke="#00f0ff" stroke-width="1.5"/>
+  <text x="50" y="140" fill="#00f0ff" font-size="14" font-weight="bold">ONBOARD SENSOR INTERFACE</text>
+  <text x="50" y="160" fill="#94a3b8" font-size="10">Boeing 777-300ER / GE90-115B Dual</text>
+
+  <rect x="50" y="180" width="240" height="75" rx="6" fill="#090e1a" stroke="#1e293b"/>
+  <text x="65" y="205" fill="#e2e8f0" font-size="11" font-weight="bold">FADEC Turbofan Telemetry</text>
+  <text x="65" y="223" fill="#64748b" font-size="9">• N1 &amp; N2 Spool Speeds (RPM)</text>
+  <text x="65" y="238" fill="#64748b" font-size="9">• EGT, Fuel Flow, Oil Pressure &amp; Temp</text>
+
+  <rect x="50" y="270" width="240" height="75" rx="6" fill="#090e1a" stroke="#1e293b"/>
+  <text x="65" y="295" fill="#10b981" font-size="11" font-weight="bold">ADIRS Flight Dynamics (ARINC 704)</text>
+  <text x="65" y="313" fill="#64748b" font-size="9">• Vertical Acceleration Nz (Touchdown)</text>
+  <text x="65" y="328" fill="#64748b" font-size="9">• Altitude FL370, Mach, CAS, Roll Rate</text>
+
+  <rect x="50" y="360" width="240" height="75" rx="6" fill="#090e1a" stroke="#1e293b"/>
+  <text x="65" y="385" fill="#f59e0b" font-size="11" font-weight="bold">Rotor Dynamic Vibration Pickups</text>
+  <text x="65" y="403" fill="#64748b" font-size="9">• N1 &amp; N2 Bearing Accelerometers</text>
+  <text x="65" y="418" fill="#64748b" font-size="9">• Velocity peak detection (&lt; 2.50 ips)</text>
+
+  <rect x="50" y="450" width="240" height="80" rx="6" fill="#090e1a" stroke="#1e293b"/>
+  <text x="65" y="475" fill="#e2e8f0" font-size="11" font-weight="bold">Quick Access Recorder (QAR)</text>
+  <text x="65" y="493" fill="#64748b" font-size="9">• 128 words per second continuous stream</text>
+  <text x="65" y="508" fill="#64748b" font-size="9">• Optical PCMCIA / WQAR Cellular link</text>
+
+  <!-- Center: DMU Processing & Exceedance Engines -->
+  <rect x="360" y="110" width="280" height="440" rx="8" fill="url(#gradGreen)" stroke="#10b981" stroke-width="1.5"/>
+  <text x="380" y="140" fill="#10b981" font-size="14" font-weight="bold">ARINC 768 DMU PROCESSOR</text>
+  <text x="380" y="160" fill="#94a3b8" font-size="10">Data Management Unit (DMU)</text>
+
+  <circle cx="500" cy="230" r="45" fill="#090e1a" stroke="#10b981" stroke-width="2"/>
+  <text x="500" y="225" fill="#10b981" font-size="12" font-weight="bold" text-anchor="middle">⚙️ ACMS</text>
+  <text x="500" y="242" fill="#64748b" font-size="9" text-anchor="middle">Trigger Engine</text>
+
+  <rect x="380" y="310" width="240" height="115" rx="6" fill="#090e1a" stroke="#1e293b"/>
+  <text x="395" y="335" fill="#e2e8f0" font-size="11" font-weight="bold">Exceedance Trigger Logic</text>
+  <text x="395" y="353" fill="#64748b" font-size="9">• Hard Landing Exceedance (&gt; 1.80G)</text>
+  <text x="395" y="368" fill="#64748b" font-size="9">• Takeoff Peak EGT Limit (&gt; 950°C)</text>
+  <text x="395" y="383" fill="#64748b" font-size="9">• Engine High Vibration (&gt; 2.50 ips)</text>
+  <text x="395" y="398" fill="#64748b" font-size="9">• Roll Upset &amp; Low Oil Pressure</text>
+
+  <rect x="380" y="445" width="240" height="85" rx="6" fill="#090e1a" stroke="#1e293b"/>
+  <text x="395" y="470" fill="#f59e0b" font-size="11" font-weight="bold">Flight Phase Logic State Machine</text>
+  <text x="395" y="488" fill="#64748b" font-size="9">• Preflight, Taxi, Takeoff, Climb,</text>
+  <text x="395" y="503" fill="#64748b" font-size="9">• Cruise, Descent, Approach, Landing</text>
+
+  <!-- Right: ACARS Reports & Airline Operations -->
+  <rect x="690" y="110" width="280" height="440" rx="8" fill="url(#gradAmber)" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="710" y="140" fill="#f59e0b" font-size="14" font-weight="bold">ACARS &amp; FOQA OPERATIONS</text>
+  <text x="710" y="160" fill="#94a3b8" font-size="10">Fleet Health &amp; Maintenance Center</text>
+
+  <rect x="710" y="180" width="240" height="105" rx="6" fill="#090e1a" stroke="#1e293b"/>
+  <text x="725" y="205" fill="#e2e8f0" font-size="11" font-weight="bold">ARINC 768 ACARS Downlinks</text>
+  <text x="725" y="223" fill="#64748b" font-size="9">• Report 15: Engine Cruise ETM Report</text>
+  <text x="725" y="238" fill="#64748b" font-size="9">• Report 22: Takeoff Profile Summary</text>
+  <text x="725" y="253" fill="#64748b" font-size="9">• Report 44: Real-Time Exceedance Alert</text>
+
+  <rect x="710" y="300" width="240" height="105" rx="6" fill="#090e1a" stroke="#1e293b"/>
+  <text x="725" y="325" fill="#00f0ff" font-size="11" font-weight="bold">ARINC 429 Discrete Bus Stream</text>
+  <text x="725" y="343" fill="#64748b" font-size="9">• Label 126: DMU Status &amp; Trigger Code</text>
+  <text x="725" y="358" fill="#64748b" font-size="9">• Label 127: Report Request &amp; Sequence</text>
+  <text x="725" y="373" fill="#64748b" font-size="9">• Bit 32 Hardware Odd Parity Verified</text>
+
+  <rect x="710" y="420" width="240" height="110" rx="6" fill="#090e1a" stroke="#1e293b"/>
+  <text x="725" y="445" fill="#10b981" font-size="11" font-weight="bold">Airline Fleet Ground Software</text>
+  <text x="725" y="463" fill="#64748b" font-size="9">• GE / Rolls-Royce Engine Trend Portal</text>
+  <text x="725" y="478" fill="#64748b" font-size="9">• Flight Operations Quality Assurance</text>
+  <text x="725" y="493" fill="#64748b" font-size="9">• FAA AC 120-82 Compliance Archive</text>
+
+  <!-- Connectors -->
+  <path d="M 310 215 L 360 215" stroke="#00f0ff" stroke-width="2"/>
+  <path d="M 640 215 L 690 215" stroke="#10b981" stroke-width="2"/>
+</svg>
